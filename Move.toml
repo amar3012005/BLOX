@@ -1,0 +1,11 @@
+[package]
+name = "ticket"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ticket_addr = "0x75f785ec1076fa2ce6050a7c2f4bd91585dee446d666d56696c6da927365e6e6"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "mainnet" }

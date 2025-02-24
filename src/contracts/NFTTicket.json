@@ -1,0 +1,39 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "string",
+          "name": "tokenURI",
+          "type": "string"
+        }
+      ],
+      "name": "mintTicket",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "address": "0xe4b8efcee4100fb4713d070bb76f7a9c1ce6fdacf38b2be349263f64951c469c",
+  "module": "nft_ticket",
+  "functions": {
+    "mint_ticket": {
+      "name": "mint_ticket",
+      "visibility": "public",
+      "generic_type_params": [],
+      "params": ["address", "string"],
+      "return": []
+    }
+  }
+}
